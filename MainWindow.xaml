@@ -19,7 +19,7 @@
         </Grid.ColumnDefinitions>
         <TextBlock Grid.Column="1" Text="Введите длины сторон треугольника" HorizontalAlignment="Center" VerticalAlignment="Bottom" FontSize="15"/>
         <TextBox x:Name="tbSideA" Grid.Row="1" Margin="30 50" FontSize="16" MaxLength="8"/>
-        <TextBox x:Name="tbSideB" Grid.Row="1" Grid.Column="1" Margin="30 50" FontSize="16" MaxLength="8"/>
+        <TextBox x:Name="tbSideB" Grid.Row="1" Grid.Column="1" Margin="30 50" FontSize="16" MaxLength="8" />
         <TextBox x:Name="tbSideC" Grid.Row="1" Grid.Column="2" Margin="30 50" FontSize="16" MaxLength="8"/>
         <Button x:Name="btnResult" Grid.Row="2" Grid.Column="1" Content="Проверить" FontSize="16" Margin="50" Background="Aqua" Click="btnResult_Click"/>
     </Grid>

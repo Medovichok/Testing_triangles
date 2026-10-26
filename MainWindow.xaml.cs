@@ -75,6 +75,7 @@ namespace Testing_triangles
             }
 
             MessageBox.Show($"Треугольник {result}", "Результат", MessageBoxButton.OK, MessageBoxImage.Information);
+
         }
     }
 }
